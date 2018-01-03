@@ -272,6 +272,7 @@ public class BaseNotificationBuilder{
      * rate.  The rate is specified in terms of the number of milliseconds to be on
      * and then the number of milliseconds to be off.
      * 呼吸灯
+     * .setLights(Color.GREEN, 2000, 2000);
      * @param argb
      * @param onMs
      * @param offMs
@@ -648,7 +649,7 @@ public class BaseNotificationBuilder{
      * @return
      */
     public BaseNotificationBuilder setOnNotificationCancelListener(Intent intent) {
-        PendingIntent pendingIntent = PendingIntent.getActivity(mContext, mRequestCode, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntent = PendingIntent.getActivity(mContext, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
         mBuilder.setDeleteIntent(pendingIntent);
         return this;
     }
