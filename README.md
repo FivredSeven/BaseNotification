@@ -102,7 +102,7 @@ Android中的通知抽屉通常显示反向时间顺序通知，受影响的调�
 
 从Android O操作系统开始，Android系统可以通过添加强调或减弱改变在列表的顶部和底部的一些通知的出现，帮助用户扫描内容。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKZy1YYTV3VWQzVUE/notifications-behavior-03-drawer.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKZy1YYTV3VWQzVUE/notifications-behavior-03-drawer.png" />
 
 在这个通知抽屉中，刚刚到达的文本出现在顶部。底部有一个关于天气的低优先级通知。
 
@@ -139,7 +139,7 @@ Android中的通知抽屉通常显示反向时间顺序通知，受影响的调�
 
 显示的控件取决于Android版本，以及该应用程序是否有通知的通道（从Android O开始）。
 
-<img src="https://github.com/FivredSeven/BaseNotification/blob/master/app/localgif/%E9%80%9A%E7%9F%A5%E5%BF%AB%E9%80%9F%E8%AE%BE%E7%BD%AE.gif" />
+<img src="https://github.com/FivredSeven/BaseNotification/blob/master/app/localgif/%E9%80%9A%E7%9F%A5%E5%BF%AB%E9%80%9F%E8%AE%BE%E7%BD%AE.gif" width = "600" height = "420"/>
 
 #### 多种类的通知
 对于生成相同类型的多个通知的应用程序，Android提供了两种不同的方法来表示它们：总结和捆绑。
