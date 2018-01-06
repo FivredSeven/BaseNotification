@@ -102,6 +102,10 @@ Android中的通知抽屉通常显示反向时间顺序通知，受影响的调�
 
 从Android O操作系统开始，Android系统可以通过添加强调或减弱改变在列表的顶部和底部的一些通知的出现，帮助用户扫描内容。
 
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKZy1YYTV3VWQzVUE/notifications-behavior-03-drawer.png"/>
+
+在这个通知抽屉中，刚刚到达的文本出现在顶部。底部有一个关于天气的低优先级通知。
+
 旧通知 ： 通知抽屉应及时向用户显示当前时刻的相关信息。如果先前发送的通知不再相关，您可以自动删除它，这样用户就不会看到它了。
 
 在这个通知抽屉中，刚刚到达的文本出现在顶部。底部有一个关于天气的低优先级通知。
@@ -144,7 +148,7 @@ Android中的通知抽屉通常显示反向时间顺序通知，受影响的调�
 #### 总结
 您可以创建一个汇总所有通知的通知，而不是显示多个通知。例如，一个消息应用程序可能有一个摘要通知，它在扩展时表示“3个新消息”，它可以为每个消息显示一个代码段。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKbHNsWE53UWRDeGs/notifications-guidelines-05-summary-1.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKbHNsWE53UWRDeGs/notifications-guidelines-05-summary-1.png" width = "600" height = "359"/>
 
 #### 分组
 应用程序可以根据层次结构呈现多个通知：
@@ -156,18 +160,18 @@ Android中的通知抽屉通常显示反向时间顺序通知，受影响的调�
 
 如果单独出现，子通知应该是可以理解的，因为系统可能在他们到达时将它们显示在组外。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKeXpNbmZVV2Nwemc/notifications-guidelines-05-summary-2.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKeXpNbmZVV2Nwemc/notifications-guidelines-05-summary-2.png" width = "600" height = "510"/>
 
 #### 扩展视图
 您可以通过扩展视图显示通知中的更多信息，而不偏离通知。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKUGczcGJEd3RuZkk/notifications-behavior-06-expand.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKUGczcGJEd3RuZkk/notifications-behavior-06-expand.png" width = "600" height = "359"/>
 
 不要包含重复通知主体上的敲击行为的文本操作。
 
 <font color=#DC143C >`Don't`</font>
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3Ulo5OWtmM3J0Qlk/notifications-guidelines-13-action-dont.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3Ulo5OWtmM3J0Qlk/notifications-guidelines-13-action-dont.png" width = "600" height = "190"/>
 
 <font color=#DC143C >`Do`</font>
 
@@ -270,7 +274,7 @@ Android的消息应用程序的用户可以直接回复任何消息而不离开�
 <tr>
 </table>
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3S1JWc3NkTVpjVk0/notifications-guidelines-03-optin.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3S1JWc3NkTVpjVk0/notifications-guidelines-03-optin.png" width = "600" height = "190"/>
 
 这个来自YouTube的通知采用了退出的方法。它提供了两个上下文（用户订阅的YouTube频道）和值（从该频道获得的新视频）。“选项”行动将用户，他们可以选择退出该频道未来的通知。
 
@@ -278,7 +282,7 @@ Android的消息应用程序的用户可以直接回复任何消息而不离开�
 
 加入选择入路比较保守。因为用户显式地选择接收这些通知，所以他们很可能会很高兴看到它们。但是，他们必须访问设置以了解如何接收它们。你可以告知用户这些通知来自于你的应用程序的其他地方，如入职流程或一卡。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3MHNWeE80eGt5UGs/notifications-guidelines-04-optout.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3MHNWeE80eGt5UGs/notifications-guidelines-04-optout.png" width = "600" height = "359"/>
 
 这个应用程序采用选择入法。应用程序顶部的一张卡让用户知道他们可以接收突发新闻报道的通知。如果用户想选择，他们选择“是”，否则，他们选择“不谢谢”，然后选择退出。这个选项也可以在应用程序设置中找到。
 
@@ -289,7 +293,7 @@ Android的消息应用程序的用户可以直接回复任何消息而不离开�
 
 用户在Android O中使用频道控制应用程序通知。如果用户不想从应用程序中获得某种通知，他们可以阻止该通道，而不是所有通知。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKaU5rVHZyT2R4eFE/notifications-settings-01-channels.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKaU5rVHZyT2R4eFE/notifications-settings-01-channels.png" width = "361" height = "638"/>
 
 这个应用程序有三个通道，可以在UI中称为“类别”。
 
@@ -349,7 +353,7 @@ Android的消息应用程序的用户可以直接回复任何消息而不离开�
 
 您还可以将频道设置屏幕链接到应用程序的设置。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKekZ1UWZWRGFXQ0E/notifications-settings-03b-applink.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKekZ1UWZWRGFXQ0E/notifications-settings-03b-applink.png" width = "600" height = "530"/>
 
 在这个应用程序中，用户可以指定通信偏好。其中一个首选项是航班更新通知，它链接到一个称为“航班更新”的频道的系统设置屏幕。该屏幕包括通过“应用程序中的其他设置”返回的链接。
 
@@ -446,11 +450,11 @@ Android的消息应用程序的用户可以直接回复任何消息而不离开�
 
 `公共` 通知在安全锁定屏幕上是完全可见的，而`私密`通知是隐藏的。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKTUVyR2hFcHZkcHc/notifications-behavior-04-lockscreen1.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKTUVyR2hFcHZkcHc/notifications-behavior-04-lockscreen1.png" width = "360" height = "630"/>
 
 `私人` 通知落在中间：它们只显示基本信息，包括发布它及其图标的应用程序的名称。代替常规内容——隐藏的内容——你可以选择显示不显示个人信息的文本，例如“2条新消息”。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKTi0zbDNNNXpCMjQ/notifications-behavior-05-lockscreen2.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKTi0zbDNNNXpCMjQ/notifications-behavior-05-lockscreen2.png" width = "360" height = "630"/>
 
 
 ### 风格
@@ -489,28 +493,28 @@ Android将内容标题一行（即使扩大）。
 #### 标准模板
 标准模板适用于大多数通知，允许简洁的文本、大图标（在适用时）和动作。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKQTlSWGZCeXE4Tzg/notifications-templates-01-standard.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKQTlSWGZCeXE4Tzg/notifications-templates-01-standard.png" width = "600" height = "359"/>
 
 折叠和扩展通知的标准模板
 
 #### 大文本模板
 当显示长文本时，应使用此模板。它允许用户在通知扩展时预览更多文本。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKLWNJejI2b2NmZ1U/notifications-templates-02-big-text.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKLWNJejI2b2NmZ1U/notifications-templates-02-big-text.png" width = "600" height = "460"/>
 
 折叠和扩展通知的大文本模板
 
 #### 大图片模板
 当通知包含图片时，应使用此模板。大图标提供图片的缩略图，用户可以通过扩展通知获得更大的预览。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKRnFhVzBDdm5pRGM/notifications-templates-03-big-picture.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKRnFhVzBDdm5pRGM/notifications-templates-03-big-picture.png" width = "600" height = "500"/>
 
 折叠和扩展通知的大图片模板
 
 #### 有进度的模板
 此模板应该用于用户发起的活动，这些活动需要时间完成，并且可以在任何时候取消。（不可撤销的活动不需要通知。）
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKYzRta2tPbmF6VkU/notifications-templates-04-progress.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKYzRta2tPbmF6VkU/notifications-templates-04-progress.png" width = "600" height = "359"/>
 
 折叠和扩展通知的进度模板
 
@@ -519,12 +523,12 @@ Android将内容标题一行（即使扩大）。
 * `折叠视图` 显示多达三个动作，大图标可以显示相关的图像，如相册封面
 * `展开视图` 显示五个较大图像的操作，如果没有显示图像，则显示六个操作。从所提供的图像颜色自动通知的背景和其他元素的颜色。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKZTNRY29yZVQwQkk/notifications-templates-05-media.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKZTNRY29yZVQwQkk/notifications-templates-05-media.png" width = "600" height = "359"/>
 
 #### 短信模板
 此模板用于实时通信。您还可以向用户提供直接在通知中键入答复的功能。
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKREFiTEhKdXI3N0k/notifications-templates-06-messaging.png"/>
+<img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKREFiTEhKdXI3N0k/notifications-templates-06-messaging.png" width = "600" height = "359"/>
 
 用于折叠和扩展通知的消息模板
 
