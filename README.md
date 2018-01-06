@@ -39,24 +39,24 @@ to make a base notification for android
 #### 头部区域
 <img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKMGppOHRYLUpUQ2M/notifications-anatomy-01-header.png" width="600" height="160"/>
 
-<font color=#DC143C >1、app图标</font> 应用程序图标是应用程序标识的一个小的二维身份标识。它出现在状态栏的单色中。如果你的应用程序发送了各种各样的通知，你可以用一个反映内容类型的符号替换你的应用程序的身份图标。例如，谷歌现在使用云图标作为天气通知。
+<font color=#DC143C >`1、app图标`</font> 应用程序图标是应用程序标识的一个小的二维身份标识。它出现在状态栏的单色中。如果你的应用程序发送了各种各样的通知，你可以用一个反映内容类型的符号替换你的应用程序的身份图标。例如，谷歌现在使用云图标作为天气通知。
 
-<font color=#DC143C >2、app名称</font> 应用程序的名称会自动出现在通知上
+<font color=#DC143C >`2、app名称`</font> 应用程序的名称会自动出现在通知上
 
-<font color=#DC143C >3、头部文本（可选）</font> 如果应用程序从多个源发送通知，如多个帐户的用户的帐户名，则通常只需要标题文本
+<font color=#DC143C >`3、头部文本（可选）`</font> 如果应用程序从多个源发送通知，如多个帐户的用户的帐户名，则通常只需要标题文本
 
-<font color=#DC143C >4、时间戳（可选）</font> 默认情况下，没有出现时间戳，但如果发送通知时非常重要，如未接来电的时间，则可以添加时间戳。
+<font color=#DC143C >`4、时间戳（可选）`</font> 默认情况下，没有出现时间戳，但如果发送通知时非常重要，如未接来电的时间，则可以添加时间戳。
 
-<font color=#DC143C >5、可扩展的图标</font> 如果通知可以扩展，则出现此情况。
+<font color=#DC143C >`5、可扩展的图标`</font> 如果通知可以扩展，则出现此情况。
 
 #### 内容区域
 <img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKZUVhSXE5VVZaQ0k/notifications-anatomy-02-content.png" width="600" height="160"/>
 
-<font color=#DC143C >1、内容标题</font> 通知的简短标题
+<font color=#DC143C >`1、内容标题`</font> 通知的简短标题
 
-<font color=#DC143C >2、内容文本</font>
+<font color=#DC143C >`2、内容文本`</font>
 
-<font color=#DC143C >3、大图标（可选）</font> 可以添加图像以有意义的方式增强通知，例如包含发件人的消息。
+<font color=#DC143C >`3、大图标（可选）`</font> 可以添加图像以有意义的方式增强通知，例如包含发件人的消息。
 
 #### 操作区域
 <img src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BwJzNNZmsTcKUlVLMmlYT2NHMFk/notifications-anatomy-03-action-area.png" width="600" height="180"/>
@@ -67,20 +67,30 @@ to make a base notification for android
 ### 使用
 #### 什么时候不该使用通知
 通知不应该是与用户的主要通信通道，因为频繁的中断可能引起恼怒。下列情况不值得通知：
-* <font color=#DC143C >Don't</font> 不要以通知的形式送节日或生日祝福。
-* <font color=#DC143C >Don't</font> 不要在一个任务的中间打断用户，唯一的目的就是询问你是否做得很好。
-* <font color=#DC143C >交叉推广</font> 或在通知中宣传另一产品，这是严格禁止的。
-* <font color=#DC143C >从未打开</font> app从未被用户打开过
-* <font color=#DC143C >没有直接价值</font> 鼓励用户返回应用程序的消息，但没有提供直接的价值，比如“暂时没有看到你”。
-* <font color=#DC143C >评级</font> 请求对应用程序进行评级
-* <font color=#DC143C >错误状态</font> 应用程序可以在没有用户交互的情况下恢复
+* <font color=#DC143C >`Don't`</font> 不要以通知的形式送节日或生日祝福。
+* <font color=#DC143C >`Don't`</font> 不要在一个任务的中间打断用户，唯一的目的就是询问你是否做得很好。
+* <font color=#DC143C >`交叉推广`</font> 或在通知中宣传另一产品，这是严格禁止的。
+* <font color=#DC143C >`从未打开`</font> app从未被用户打开过
+* <font color=#DC143C >`没有直接价值`</font> 鼓励用户返回应用程序的消息，但没有提供直接的价值，比如“暂时没有看到你”。
+* <font color=#DC143C >`评级`</font> 请求对应用程序进行评级
+* <font color=#DC143C >`错误状态`</font> 应用程序可以在没有用户交互的情况下恢复
 
 #### 通知的要求
 前台服务是在后台运行的应用程序进程，而用户并不直接与应用程序交互。因为这些应用程序使用的电池和可能的数据，Android需要用户通过一个非无足轻重的通知知道这些服务类型。
 因为用户不能撤销通知，您应该为用户提供一个操作，如果他们不想运行该服务，就停止服务。
-在下载应用程序和文件时，Android的下载管理器运行一个前台服务，并显示一个通知，让用户知道下载正在进行中，并有一个<font color=#DC143C >取消选项</font>。
+在下载应用程序和文件时，Android的下载管理器运行一个前台服务，并显示一个通知，让用户知道下载正在进行中，并有一个<font color=#DC143C >`取消选项`</font>。
 
 ### 行为
+#### 通知栏到达
+当通知到达时，它会被添加到通知抽屉中。根据您设置的参数和设备的当前状态，通知也可以：
+* 在状态栏中用图标表示
+* 发出声音或震动
+* 在当前屏幕上展示以吸引用户的注意力
+
+用户可以选择更改您设置的通知行为。
+
+当通知到达时，图标通常会出现在状态栏中。这向用户发出通知，通知抽屉里有东西要看。
+
 
 
 
